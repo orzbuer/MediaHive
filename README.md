@@ -1,8 +1,8 @@
-# CineMeta
+# MediaHive
 
 A multi-source movie metadata scraper and media library organizer.
 
-CineMeta scans your local movie files, fetches metadata from multiple sources (TMDb, Douban), and organizes them into a clean library structure with NFO files compatible with Jellyfin, Emby, and Plex.
+MediaHive scans your local movie files, fetches metadata from multiple sources (TMDb, Douban), and organizes them into a clean library structure with NFO files compatible with Jellyfin, Emby, and Plex.
 
 ## Features
 
@@ -18,8 +18,8 @@ CineMeta scans your local movie files, fetches metadata from multiple sources (T
 ### 1. Install
 
 ```bash
-git clone https://github.com/orzbuer/CineMeta.git
-cd CineMeta
+git clone https://github.com/orzbuer/MediaHive.git
+cd MediaHive
 pip install -r requirements.txt
 ```
 
@@ -48,7 +48,7 @@ python cinemeta.py -v /path/to/movies
 ## Architecture
 
 ```
-CineMeta/
+MediaHive/
 ├── cinemeta.py          # Main entry point & pipeline
 ├── config.ini           # Configuration file
 ├── core/

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CineMeta - Multi-source movie metadata scraper and media organizer.
+"""MediaHive - Multi-source movie metadata scraper and media organizer.
 
 Scans local video files, fetches metadata from TMDb and Douban,
 generates Jellyfin/Emby/Plex compatible NFO files, and organizes
@@ -110,7 +110,7 @@ def process_directory(scan_dir: str):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='CineMeta - Movie metadata scraper and media organizer',
+        description='MediaHive - Movie metadata scraper and media organizer',
     )
     parser.add_argument('directory', nargs='?', default=None,
                         help='Directory to scan for video files')
